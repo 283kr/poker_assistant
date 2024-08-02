@@ -208,7 +208,7 @@ else:
     st.write("Please select cards to calculate odds.")
 
 
-st.subheader('Select your cards (up to 7) + 한 번 클릭: 필드에 있는 카드, 두 번 클릭: 나의 핸드(패) 카드, 세 번 클릭: 선택 취소')
+st.subheader('Select your cards (up to 7) + 한 번 클릭: ✅ 필드에 있는 카드, 두 번 클릭: 🂫 나의 핸드(패) 카드, 세 번 클릭: 선택 취소')
 cols = st.columns(13)
 for i, card in enumerate(poker_calculator.deck):
     col = cols[i % 13]
