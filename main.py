@@ -176,7 +176,7 @@ if st.button('Get Advice from GPT-4'):
 
     # GPT-4 API 호출
     response = client.chat.completions.create(
-        model="gpt-4",
+        model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": message},
